@@ -1,0 +1,79 @@
+:root {
+    --bg: #f4f4f4;
+    --text: #222;
+    --muted: #666;
+    --line: #e2e2e2;
+    --accent: #d6a11c;
+    --accent-dark: #b18412;
+    --ghost: #d9d9d9;
+    --error: #d64545;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+}
+
+.header {
+    padding: 18px 24px;
+}
+
+.brand {
+    color: #d6a11c;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: none;
+    letter-spacing: .5px;
+}
+
+.main {
+    padding: 8px 24px 40px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    padding: 0 16px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn--primary {
+    background: var(--accent);
+    color: #fff;
+}
+
+.btn--primary:hover {
+    background: var(--accent-dark);
+}
+
+.btn--accent {
+    background: var(--accent);
+    color: #fff;
+}
+
+.btn--accent:hover {
+    background: var(--accent-dark);
+}
+
+.btn--ghost {
+    background: var(--ghost);
+    color: #333;
+}
+
+.title {
+    font-size: 18px;
+    margin: 0 0 16px;
+}
+
+.subtitle {
+    margin: 0 0 16px;
+    color: var(--muted);
+}

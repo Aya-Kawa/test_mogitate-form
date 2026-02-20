@@ -13,10 +13,10 @@ mogitate
 ## Laravel環境構築
 * docker-compose exec php bash
 * composer install
-*cp .env.example .env
-*php artisan key:generate
-*php artisan migrate
-*php artisan db:seed
+* cp .env.example .env
+* php artisan key:generate
+* php artisan migrate
+* php artisan db:seed
 ※ .env は必要に応じて DB 設定を調整してください。
 
 ## 開発環境URL
@@ -32,9 +32,8 @@ nginx
 Docker / Docker Compose
 
 ## ER図
-![ER図](images/ER.png)
+![ER図](images/mogitateER.png)
 
 
 
 
-# test_mogitate-form
